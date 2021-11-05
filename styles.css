@@ -72,6 +72,7 @@ main > article > section > header {
 
 img {
     margin: 10px auto;
+    border: 1px solid rgb(53, 3, 114);
 }
 
 
