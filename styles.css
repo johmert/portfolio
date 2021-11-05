@@ -1,0 +1,92 @@
+/* styled links using pseudo-class*/
+/*These CSS properties
+    background, color, font-family, font-size
+    height, margin, padding, text-align */
+
+
+/*All*/
+body {
+    background: rgb(238, 224, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: block;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+p {
+    margin: 30px;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
+}
+
+li {
+    margin: 8px 0;
+    font-size: 18px;
+    color:rgb(51, 51, 51);
+}
+/*links*/
+.inline {
+    color: rgb(53, 3, 114);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.inline:hover{
+    font-size: 20px;
+    color:rgb(167, 114, 231);
+}
+
+.contact {
+    color: #CCCCFF;
+    background:rgb(53, 3, 114);
+    font-weight: 550;
+    margin: 10px;
+    padding: 3px;
+    border: 1px solid #CCCCFF;
+    text-decoration: none;
+}
+
+.contact:hover{
+    background: #CCCCFF;
+    color:rgb(53, 3, 114);
+}
+
+/*Intro*/
+body > header {
+    background: black;
+    color: #CCCCFF;
+    margin: 0;
+    text-align: center;
+    padding: 2px;
+}
+
+main > article > section > header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    margin: 10px auto;
+}
+
+
+/*About Me*/
+main > article > section > p, main > article > footer > p, ol {
+    text-align: left;
+    margin-left: 5%;
+}
+
+/*Contact*/
+body > footer {
+    background: black;
+    color: #CCCCFF;
+    height: 90px;
+    position: fixed;
+    right: 0;
+    bottom: 60px;
+}
