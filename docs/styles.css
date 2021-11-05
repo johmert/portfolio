@@ -82,6 +82,10 @@ main > article > section > p, main > article > footer > p, ol {
     margin-left: 5%;
 }
 
+main > article > footer {
+    padding-bottom: 25px;
+}
+
 /*Contact*/
 body > footer {
     background: black;
