@@ -64,7 +64,7 @@ body > header {
     padding: 2px;
 }
 
-main > article > section > header {
+main > article > header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,7 +77,7 @@ img {
 
 
 /*About Me*/
-main > article > section > p, main > article > footer > p, ol {
+main > article > section > h3, main > article > section > p, main > article > footer > p, ol {
     text-align: left;
     margin-left: 5%;
 }
